@@ -1,0 +1,29 @@
+# Info
+
+Setup: 10 warmup iterations, 3 forks, 20 measurement iterations, 1 second execution duration
+
+# Not Working
+
+## netty
+netty-04_00_56
+netty-04_01_13
+netty-04_01_19
+netty-04_01_26
+netty-04_01_32
+netty-04_01_39
+netty-04_01_45
+
+## rxjava
+rxjava-1_1_1
+rxjava-1_1_3
+rxjava-1_1_5
+rxjava-1_1_6
+rxjava-1_1_9
+rxjava-1_2_1
+rxjava-1_2_4
+rxjava-1_2_6
+rxjava-1_2_10
+rxjava-1_3_0
+rxjava-1_3_3
+rxjava-1_3_6
+rxjava-1_3_8

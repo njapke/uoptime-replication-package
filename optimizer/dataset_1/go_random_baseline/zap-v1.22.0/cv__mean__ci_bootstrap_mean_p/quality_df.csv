@@ -1,0 +1,23 @@
+Benchmark,Time Saved,Average Difference,CI Upper Difference,CI Lower Difference
+BenchmarkBuffers/ByteSlice,63,-0.00040187615608223195,3.301346949547725e-05,-0.0007325482765840408
+BenchmarkBuffers/BytesBuffer,0,0.0,0.0,0.0
+BenchmarkBuffers/CustomBuffer,69,-0.036803506876635944,0.025894648703764594,-0.07278765051889459
+BenchmarkBufferedWriteSyncer/write_file_with_buffer,0,0.0,0.0,0.0
+BenchmarkMultiWriteSyncer/2_discarder,0,0.0,0.0,0.0
+BenchmarkMultiWriteSyncer/4_discarder,63,0.0014215316913699222,0.0029149470403184953,9.510647075860562e-05
+BenchmarkMultiWriteSyncer/4_discarder_with_buffer,0,0.0,0.0,0.0
+BenchmarkWriteSyncer/write_file_with_no_buffer,67,-0.021317440986089804,0.014549462012006081,-0.07149792669220903
+BenchmarkZapConsole,0,0.0,0.0,0.0
+BenchmarkJSONLogMarshalerFunc,0,0.0,0.0,0.0
+BenchmarkZapJSONFloat32AndComplex64,0,0.0,0.0,0.0
+BenchmarkZapJSON,0,0.0,0.0,0.0
+BenchmarkStandardJSON,51,-0.0005468283953072757,0.002698007605209454,-0.0023349176403149696
+BenchmarkSampler_Check/7_keys,63,0.0018647935729608348,0.0036820582350177086,0.00046167883476663866
+BenchmarkSampler_Check/50_keys,0,0.0,0.0,0.0
+BenchmarkSampler_Check/100_keys,59,0.00025294066266800483,0.0005484450718165306,-0.000151699029126205
+BenchmarkSampler_CheckWithHook/7_keys,72,0.008483788637867515,0.02330186764211281,0.0007212642758475461
+BenchmarkSampler_CheckWithHook/50_keys,63,0.007416068682726709,0.019513046775412973,-0.0005674425698074944
+BenchmarkSampler_CheckWithHook/100_keys,0,0.0,0.0,0.0
+BenchmarkTeeCheck,0,0.0,0.0,0.0
+BenchmarkWriter/single,67,0.00295003355100561,0.007873597936292963,-0.0018514145001969882
+BenchmarkWriter/splits,67,-0.0016911147284132146,-0.0019493883781389713,-0.001954226023473403

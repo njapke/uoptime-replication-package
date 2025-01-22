@@ -1,0 +1,32 @@
+# TOML file to configure perf runner
+
+# Name of the project
+name = "prometheus-common"
+
+# Path to the project to benchmark
+path = "/path/to/common"
+
+projUri = "https://github.com/prometheus/common.git"
+
+tag = "v0.35.0"
+
+basePackage = "github.com/prometheus/common"
+
+gcpProject = "your-gcp-project"
+
+gcpBucket = "a-public-bucket"
+
+# a custom image with access to git, and the go compiler is needed
+gcpImage = "custom-image"
+
+# Benchmark Execution Duration (baseline: 1s)
+bed = 5
+
+# Number of executions of single benchmark during a suite run (baseline: 5)
+it = 5
+
+# Number of suite runs (baseline: 3)
+sr = 3
+
+# Number of instance runs (baseline: 3)
+ir = 3

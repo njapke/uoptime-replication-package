@@ -1,0 +1,21 @@
+Benchmark,Time Saved,Average Difference,CI Upper Difference,CI Lower Difference
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkByteBuddySpecialized,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkByteBuddyWithAnnotations,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkCglib,57,-0.001579262791172445,-0.0032439298365416463,0.003228754043958883
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkByteBuddy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkJdkProxy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkByteBuddy,44,0.000661180673173229,0.0011795783753319525,-0.0006057826688637873
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkJdkProxy,57,-0.00862679777438403,-0.02534555207904266,-0.004320639729351881
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkByteBuddySpecialized,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkByteBuddyWithAnnotations,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkJavassist,56,-0.007012605709394134,-0.08973495255294824,-0.0020757982877858024
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkByteBuddy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkJdkProxy,0,0.0,0.0,0.0

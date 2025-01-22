@@ -1,0 +1,21 @@
+Benchmark,Time Saved,Average Difference,CI Upper Difference,CI Lower Difference
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkByteBuddySpecialized,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkByteBuddyWithAnnotations,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkByteBuddy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkJdkProxy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkByteBuddy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkJdkProxy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkByteBuddySpecialized,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkByteBuddyWithAnnotations,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkByteBuddy,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkCglib,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkJavassist,0,0.0,0.0,0.0
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkJdkProxy,0,0.0,0.0,0.0

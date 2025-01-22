@@ -1,0 +1,26 @@
+Benchmark,Config,Instability,Time,Average,CI Lower,CI Upper
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.baseline,"(3, 20)",0.1631624670847767,60,34.597364525861465,33.83704098735335,36.353813831839815
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkByteBuddy,"(3, 20)",0.0831242619016392,60,220212.05013143944,210817.61359254556,225911.2273241348
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkCglib,"(3, 20)",0.2142682315245025,60,813438.9506500391,695640.1837160751,882206.2870304384
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkJavassist,"(3, 20)",0.07232449279221916,60,273789.0380605628,256269.8129496403,290814.5839883552
+net.bytebuddy.benchmark.TrivialClassCreationBenchmark.benchmarkJdkProxy,"(3, 20)",0.04170989323893983,60,122979.7594049021,120649.3947082276,124637.40022463496
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.baseline,"(3, 20)",0.3165319549165323,60,37.66937613373764,37.17723806528302,38.39066760820887
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkByteBuddySpecialized,"(3, 20)",0.1515068564370467,60,1336935.0004444383,1213220.6367947902,1438911.8712882372
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkByteBuddyWithAnnotations,"(3, 20)",0.04599381912964782,60,7733881.233545402,7589205.333333333,7920904.798900138
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkCglib,"(3, 20)",0.019267449684977442,60,2229141.477334247,2219341.7649667407,2253482.6666666665
+net.bytebuddy.benchmark.ClassByExtensionBenchmark.benchmarkJavassist,"(3, 20)",0.05378538563942606,60,964454.9950590066,914689.8754578754,990887.5370443527
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.baseline,"(3, 20)",0.359838047969762,60,38.66925415746168,37.51388040273092,55.49588477423433
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkByteBuddy,"(3, 20)",0.08795958674353892,60,1734505.6562714395,1602986.6427916486,1896910.4516129035
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkCglib,"(3, 20)",0.057007108844707,60,1309904.0209698556,1282764.600883264,1376098.0275482093
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkJavassist,"(3, 20)",0.14317848284048218,60,1148257.757409208,1073227.8925886145,1301983.2907431552
+net.bytebuddy.benchmark.ClassByImplementationBenchmark.benchmarkJdkProxy,"(3, 20)",0.03419433801945584,60,1418741.8408768536,1385794.3966712898,1448820.4985507247
+net.bytebuddy.benchmark.StubInvocationBenchmark.baseline,"(3, 20)",0.01166245140124533,60,5.082263026119559,5.0593390176958595,5.122859010677708
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkByteBuddy,"(3, 20)",0.013216008465773685,60,5.055993763210859,5.044139833613518,5.096016315853165
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkCglib,"(3, 20)",0.04230720405677907,60,5.89821643741498,5.83437515881486,6.018079124536675
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkJavassist,"(3, 20)",0.09377466786393301,60,15.628608721211915,15.466228429853102,16.242810531906823
+net.bytebuddy.benchmark.StubInvocationBenchmark.benchmarkJdkProxy,"(3, 20)",0.07593876491544833,60,11.507463230113924,11.37488410711611,12.201404112439992
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.baseline,"(3, 20)",0.19063472011934615,60,7.174410850666062,7.124974499529198,7.249459466573666
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkByteBuddySpecialized,"(3, 20)",0.11811891571837589,60,7.285354261625675,7.180462891893487,7.4974434608706515
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkByteBuddyWithAnnotations,"(3, 20)",0.15375604349984798,60,7.269751337647187,7.206454096059496,7.347585860488478
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkCglib,"(3, 20)",0.11918565243536501,60,30.360689212057395,29.38780084512217,31.04043026678029
+net.bytebuddy.benchmark.SuperClassInvocationBenchmark.benchmarkJavassist,"(3, 20)",0.10065571322862293,60,35.82959268553665,35.17686330276746,37.38624492164829
