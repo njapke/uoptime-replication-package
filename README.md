@@ -1,10 +1,32 @@
 # Replication Package of "µOpTime: Statically Reducing the Execution Time of Microbenchmark Suites Using Stability Metrics"
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14725868.svg)](https://doi.org/10.5281/zenodo.14725868)
+
 This repository contains the replication package for μOpTime.
 
 ## Research
 
-If you use this software in a publication, please cite the corresponding paper as:
+If you use this software in a publication, please cite it as:
+
+```bibtex
+@software{japke_2025_14725868,
+  author       = {Japke, Nils and
+                  Grambow, Martin and
+                  Laaber, Christoph and
+                  Bermbach, David},
+  title        = {Replication Package: µOpTime: Statically Reducing
+                   the Execution Time of Microbenchmark Suites Using
+                   Stability Metrics},
+  month        = jan,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.14725868},
+  url          = {https://doi.org/10.5281/zenodo.14725868},
+}
+```
+
+Please also cite the corresponding paper as:
 
 ```bibtex
 @misc{japke2025muoptimestaticallyreducingexecution,
