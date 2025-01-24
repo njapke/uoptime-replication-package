@@ -20,23 +20,25 @@ If you use this software in a publication, please cite it as:
   month        = jan,
   year         = 2025,
   publisher    = {Zenodo},
-  version      = {v1.0},
-  doi          = {10.5281/zenodo.14725868},
-  url          = {https://doi.org/10.5281/zenodo.14725868},
+  doi          = {10.5281/zenodo.14725867},
+  url          = {https://doi.org/10.5281/zenodo.14725867},
 }
 ```
 
 Please also cite the corresponding paper as:
 
 ```bibtex
-@misc{japke2025muoptimestaticallyreducingexecution,
-      title={$\mu$OpTime: Statically Reducing the Execution Time of Microbenchmark Suites Using Stability Metrics}, 
-      author={Nils Japke and Martin Grambow and Christoph Laaber and David Bermbach},
-      year={2025},
-      eprint={2501.12878},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE},
-      url={https://arxiv.org/abs/2501.12878}, 
+@article{japke_uoptime,
+    title       ={µOpTime: Statically Reducing the Execution Time of Microbenchmark Suites Using Stability Metrics}, 
+    author      ={Nils Japke and Martin Grambow and Christoph Laaber and David Bermbach},
+    journal     = {ACM Trans. Softw. Eng. Methodol.},
+    volume      = {},
+    number      = {},
+    pages       = {1--26},
+    year        = {2025},
+    publisher   = {Association for Computing Machinery},
+    url         = {http://dx.doi.org/10.1145/3715322},
+    doi         = {10.1145/3715322}
 }
 ```
 
