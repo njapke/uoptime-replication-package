@@ -14,7 +14,7 @@ If you use this software in a publication, please cite it as:
                   Grambow, Martin and
                   Laaber, Christoph and
                   Bermbach, David},
-  title        = {Replication Package: µOpTime: Statically Reducing
+  title        = {Replication Package: {$\mu$OpTime}: Statically Reducing
                    the Execution Time of Microbenchmark Suites Using
                    Stability Metrics},
   month        = jan,
@@ -29,9 +29,9 @@ Please also cite the corresponding paper as:
 
 ```bibtex
 @article{japke_uoptime,
-    title       ={µOpTime: Statically Reducing the Execution Time of Microbenchmark Suites Using Stability Metrics}, 
+    title       ={{$\mu$OpTime}: Statically Reducing the Execution Time of Microbenchmark Suites Using Stability Metrics}, 
     author      ={Nils Japke and Martin Grambow and Christoph Laaber and David Bermbach},
-    journal     = {ACM Trans. Softw. Eng. Methodol.},
+    journal     = {{ACM} Transactions on Software Engineering and Methodology},
     volume      = {},
     number      = {},
     pages       = {1--26},
